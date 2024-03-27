@@ -64,5 +64,13 @@ You have two options.
 
 # Bonus Points
 
-* Given more time, what improvements to the existing codebase would you make? 
+* Given more time, what improvements to the existing codebase would you make?
+
+The first thing I would do is to upgrade the Laravel version!
+Lost a lot of time trying to remember whether methods and helpers were available in v4.
+Most were not :(  
+
+Once that was done, I could separate out the routes into web and 
+api routes, integrate some auth using Sanctum, create services to 
+handle the logic and create tests.
 
